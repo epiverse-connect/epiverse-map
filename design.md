@@ -19,8 +19,7 @@ with the following user story:
 - cards
 - network
 - map
-i
-These three options, with their pros and cons have been presented to a panel of potential and they recommended moving forward with a hybrid of the network and cards options.
+These three options, with their pros and cons have been presented to a panel of potential users and they recommended moving forward with a hybrid of the network and cards options.
 
 The network is a good way to get a quick high-level overview of the ecosystem, and Epiverse position in the ecosystem. The cards allow us to see the details of each package.
 
