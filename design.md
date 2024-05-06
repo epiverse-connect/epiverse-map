@@ -44,6 +44,13 @@ The tool should:
 - highlight Epiverse packages in a different color
 - allow clicking on a node to see the details of the package
 
+## Deployment
+
+This will be part of the https://epiverse-trace.github.io/ website.
+As a consequence, the final user interface should be a webapp, embeddable in a simple static website hosted on GitHub Pages.
+
+The app also needs to be redeployed every week, or at least every month, using the new data (new packages and new data about existing packages).
+
 ## Previous and related work
 
 - https://github.com/epiverse-connect/NetworkViz, creating a network of packages, and external data sources, based on manual input of interoperability level
