@@ -16,9 +16,22 @@ with the following user story:
 
 3 options have been identified to address the user stories:
 
-- cards
-- network
-- map
++--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
+| Solution     | Benefits                                               | Limitations                                         | Examples                                                                         |
++==============+========================================================+=====================================================+==================================================================================+
+| cards        | -   More details on specific packages                  | -   Does not explicit links between packages        | -   [r-universe](https://epiverse-trace.r-universe.dev)                          |
+|              |                                                        |                                                     |                                                                                  |
+|              |                                                        |                                                     | -   [rOpenSci](https://ropensci.org/packages/image-processing/)                  |
++--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
+| network      | -   Explicit interactions & relations between packages | -   Does not much give info on individual packages  | -   [Original Epiverse-Connect](https://github.com/epiverse-connect/NetworkViz)  |
+|              |                                                        |                                                     |                                                                                  |
+|              |                                                        | -   May be difficult to automate link definition    |                                                                                  |
++--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
+| map          | -   Can be fully automated                             | -   Does not explicit interactions between packages | -   [Map of GitHub](https://anvaka.github.io/map-of-github/)                     |
+|              |                                                        |                                                     |                                                                                  |
+|              | -   Clarify package scope                              |                                                     |                                                                                  |
++--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
+
 These three options, with their pros and cons have been presented to a panel of potential users and they recommended moving forward with a hybrid of the network and cards options.
 
 The network is a good way to get a quick high-level overview of the ecosystem, and Epiverse position in the ecosystem. The cards allow us to see the details of each package.
