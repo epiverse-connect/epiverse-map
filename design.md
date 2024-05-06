@@ -27,7 +27,7 @@ The network is a good way to get a quick high-level overview of the ecosystem, a
 
 The tool should:
 
-- represent R packages from the CRAN Task View in Epidemiology as nodes of the network
+- represent R packages from [the CRAN Task View in Epidemiology](https://github.com/cran-task-views/Epidemiology) as nodes of the network
 - highlight Epiverse packages in a different color
 - allow clicking on a node to see the details of the package
 
