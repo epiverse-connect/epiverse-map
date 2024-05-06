@@ -4,9 +4,9 @@
 
 This work is mostly targeted at the following persona:
 
-- PEI tool implementer
-- PEI tool creator
-- domain expert
+- Pandemic & Epidemic Intelligence tool implementer
+- Pandemic & Epidemic Intelligence tool creator
+- Domain expert
 
 with the following user story:
 
