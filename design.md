@@ -42,7 +42,12 @@ The tool should:
 
 - represent R packages from [the CRAN Task View in Epidemiology](https://github.com/cran-task-views/Epidemiology) as nodes of the network
 - highlight Epiverse packages in a different color
-- allow clicking on a node to see the details of the package
+- allow clicking on a node to see the details of the package via a card. The card should display:
+  - the package name
+  - the package logo (if it exists)
+  - the package description
+  - a link to the documentation website (if it exists)
+  - a link to the GitHub repository (if it exists)
 
 ## Deployment
 
