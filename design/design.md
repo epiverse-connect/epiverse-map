@@ -49,6 +49,10 @@ The tool should:
   - a link to the documentation website (if it exists)
   - a link to the GitHub repository (if it exists)
 
+## Architecture
+
+![](architecture.png)
+
 ## Deployment
 
 This will be part of the https://epiverse-trace.github.io/ website.
