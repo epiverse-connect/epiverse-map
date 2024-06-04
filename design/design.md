@@ -46,8 +46,8 @@ The tool should:
   - the package name
   - the package logo (if it exists)
   - the package description
-  - a link to the documentation website (if it exists)
-  - a link to the GitHub repository (if it exists)
+  - a clickable link to the documentation website (if it exists)
+  - a clickable link to the GitHub repository (if it exists)
 - provide a scientifically informative overview of the ecosystem (package grouped by typical user, epidemiology subdomain, etc.)
 
 ## Architecture
