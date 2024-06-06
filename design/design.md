@@ -15,22 +15,65 @@ with the following user story:
 ## Design options and user feedback
 
 3 options have been identified to address the user stories:
-
-+--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
-| Solution     | Benefits                                               | Limitations                                         | Examples                                                                         |
-+==============+========================================================+=====================================================+==================================================================================+
-| cards        | -   More details on specific packages                  | -   Does not explicit links between packages        | -   [r-universe](https://epiverse-trace.r-universe.dev)                          |
-|              |                                                        |                                                     |                                                                                  |
-|              |                                                        |                                                     | -   [rOpenSci](https://ropensci.org/packages/image-processing/)                  |
-+--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
-| network      | -   Explicit interactions & relations between packages | -   Does not much give info on individual packages  | -   [Original Epiverse-Connect](https://github.com/epiverse-connect/NetworkViz)  |
-|              |                                                        |                                                     |                                                                                  |
-|              |                                                        | -   May be difficult to automate link definition    |                                                                                  |
-+--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
-| map          | -   Can be fully automated                             | -   Does not explicit interactions between packages | -   [Map of GitHub](https://anvaka.github.io/map-of-github/)                     |
-|              |                                                        |                                                     |                                                                                  |
-|              | -   Clarify package scope                              |                                                     |                                                                                  |
-+--------------+--------------------------------------------------------+-----------------------------------------------------+----------------------------------------------------------------------------------+
+<table style="width:99%;">
+<colgroup>
+<col width="7%" />
+<col width="27%" />
+<col width="25%" />
+<col width="39%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Solution</th>
+<th>Benefits</th>
+<th>Limitations</th>
+<th>Examples</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>cards</td>
+<td><ul>
+<li>More details on specific packages</li>
+</ul></td>
+<td><ul>
+<li>Does not explicit links between packages</li>
+</ul></td>
+<td><ul>
+<li><p><a href="https://epiverse-trace.r-universe.dev">r-universe</a></p></li>
+<li><p><a href="https://ropensci.org/packages/image-processing/">rOpenSci</a></p></li>
+</ul></td>
+</tr>
+<tr class="even">
+<td>network</td>
+<td><ul>
+<li>Explicit interactions &amp; relations between packages</li>
+</ul></td>
+<td><ul>
+<li><p>Does not much give info on individual packages</p></li>
+<li><p>May be difficult to automate link definition</p></li>
+</ul></td>
+<td><ul>
+<li><a href="https://github.com/epiverse-connect/NetworkViz">Original
+Epiverse-Connect</a></li>
+</ul></td>
+</tr>
+<tr class="odd">
+<td>map</td>
+<td><ul>
+<li><p>Can be fully automated</p></li>
+<li><p>Clarify package scope</p></li>
+</ul></td>
+<td><ul>
+<li>Does not explicit interactions between packages</li>
+</ul></td>
+<td><ul>
+<li><a href="https://anvaka.github.io/map-of-github/">Map of
+GitHub</a></li>
+</ul></td>
+</tr>
+</tbody>
+</table>
 
 These three options, with their pros and cons have been presented to a panel of potential users and they recommended moving forward with a hybrid of the network and cards options.
 
