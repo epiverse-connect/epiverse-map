@@ -28,8 +28,8 @@ The response for the API is one JSON object containing an array of package names
           "https://epiverse-trace.github.io/epidemics/articles/modelling_interventions.html",
           "https://epiverse-trace.github.io/epidemics/articles/modelling_multiple_interventions.html"
       ],
-      "embedding_dimension_1": 0.384,
-      "embedding_dimension_2": 0.684,
+      "coord1": 0.384,
+      "coord2": 0.684,
     },
     ...
   ]
